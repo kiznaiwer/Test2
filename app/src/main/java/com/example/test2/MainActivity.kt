@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val strTask2 = getString(R.string.task2) //TASK2
+        val strTask2 = getString(R.string.task2) // TASK2
 
         val userName = findViewById<EditText>(R.id.userName)
         val buttonNext = findViewById<Button>(R.id.buttonNext)
