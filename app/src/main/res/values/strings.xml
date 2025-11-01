@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Test2</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="edit_text">Введите текст</string>
+    <string name="task2">Получить строку из ресурсов</string>
+    <string name="wi_fi">Логотип Wi-Fi</string>
+    <string name="enterText">Введите текст</string>
+    <string name="Back">Назад</string>
+    <string name="Next">Далее</string>
+</resources>

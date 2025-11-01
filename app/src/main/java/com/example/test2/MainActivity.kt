@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,13 +21,10 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val userName = findViewById<EditText>(R.id.userName)
-        val buttonNext = findViewById<Button>(R.id.buttonNext)
+        val task1 = findViewById<Button>(R.id.task1)
 
-        buttonNext.setOnClickListener {
-            val name = userName.text.toString()
-            val intent = Intent(this, SecondActivity::class.java)
-            intent.putExtra("user name", name)
+        task1.setOnClickListener {
+            val intent = Intent(this, FirstActivity::class.java)
             startActivity(intent)
         }
     }
