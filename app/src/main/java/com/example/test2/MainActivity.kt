@@ -21,15 +21,10 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val strTask2 = getString(R.string.task2) // TASK2
+        val task1 = findViewById<Button>(R.id.task1)
 
-        val userName = findViewById<EditText>(R.id.userName)
-        val buttonNext = findViewById<Button>(R.id.buttonNext)
-
-        buttonNext.setOnClickListener {
-            val name = userName.text.toString()
-            val intent = Intent(this, SecondActivity::class.java)
-            intent.putExtra("user name", name)
+        task1.setOnClickListener {
+            val intent = Intent(this, FirstActivity::class.java)
             startActivity(intent)
         }
     }

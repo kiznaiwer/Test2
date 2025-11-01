@@ -17,4 +17,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="200dp"/>
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="228dp"
+        android:layout_height="268dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewName"
+        app:srcCompat="@drawable/rss_symbol_svgrepo_com" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
